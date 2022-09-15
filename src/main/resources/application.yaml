@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: root
+    password: Taijutice_2020
+    url: jdbc:mysql://120.77.22.146:3306/tk_platform
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 120.77.22.146
+    password: taike123
+    port: 6379
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
